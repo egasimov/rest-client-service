@@ -10,7 +10,7 @@ Spring Starter Web ,project lombok , oracle-jdbc-connector
 - Service is responsible to expose API to clients in order their consuming messages
 - After Client consumed messages , that messages`s status need to be changed 
 - Service make change state of messages after make sure that client has recevied that message
-- To accomplish Data Safety transmission ,  we used 'acknowledge' concept which is just about client sending acknowledgement about receving message to server ,
+- To accomplish Data reliable transmission ,  we used 'acknowledge' concept which is just about client sending acknowledgement about receving message to server ,
 and server will change status of messages from NOT_SENT into SENT when got client`s acknowledgement . 
 - in order to load network traffic less , we are sending only token(that`s random string) , not whole messages , not their ids .
 - Server sends messages (that`re were not sent yet) along with token(namely, acknowledgement) .
