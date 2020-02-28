@@ -1,6 +1,7 @@
 # Restful Web Service and Client with Spring Boot
+- Reliable Data Transmission between client and server based on acknowledgement concept
 
-Spring Starter Web ,project lombok , oracle-jdbc-connector
+- Spring Starter Web ,project lombok , oracle-jdbc-connector
 
 ## Our pretty scenario
 
